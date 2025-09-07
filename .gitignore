@@ -3,6 +3,11 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# mac junk
+.DS_Store
+.csv
+
+
 # C extensions
 *.so
 
