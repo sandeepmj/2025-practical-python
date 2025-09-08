@@ -6,6 +6,7 @@ __pycache__/
 # mac junk
 .DS_Store
 .csv
+myenv
 
 
 # C extensions
