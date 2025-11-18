@@ -18,7 +18,7 @@ Paste two sample cases below into a ```regex101.com``` window. Your ```regex``` 
 Make sure you turn on ```Python regex``` in the left column first on ```regex101.com```
 
 
-Copy this block of text using the copy icon in right corner of the block:
+Copy this block of text using the copy icon in the right corner of the block:
 ```
 STATE OF NEW YORK DEPARTMENT OF HEALTH
 REQUEST: February 16, 2016
@@ -210,9 +210,9 @@ DEPARTMENT OF HEALTH
 By
 Commissioner's Designee
 
-********************************************************************************************************
+*********************************************
 
-********************************************************************************************************
+*********************************************
 
 STATE OF NEW YORK DEPARTMENT OF HEALTH
 REQUEST: January 6, 2016
