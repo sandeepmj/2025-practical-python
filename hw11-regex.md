@@ -1,6 +1,6 @@
 # ```Regex``` homework: NY State Delays in Fair Hearing Decisions?
 
-You are a health reporter. You are starting to hear many complaints about how long it is taking New York State to issue a decision on whether someone receives long-term care aid. You get a hold of thousands of redacted Fair Hearing decision documents. You want to capture:
+You are a health reporter. You are starting to hear many complaints about how long it is taking New York State to issue a decision on whether someone receives long-term care aid. You get a hold of thousands of redacted Fair Hearing decision documents [sample](https://drive.google.com/file/d/1081J4XFvA2Slgy_raj-jR6Oqd59L09cr/view?usp=sharing). You want to capture:
 - The request date (found at the top)
 - The fair hearing decision date (found near bottom of each case)
 - The fair hearing case number (found near the top as a ```FH#```)
