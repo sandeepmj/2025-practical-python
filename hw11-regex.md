@@ -10,7 +10,7 @@ Paste two cases below into a ```regex101.com``` window. Your ```regex``` should 
 Make sure you turn on ```Python regex``` in the left column first on ```regex101.com```
 
 
-This block of text:
+Copy this block of text using the copy icon in right corner of the block:
 ```
 STATE OF NEW YORK DEPARTMENT OF HEALTH
 REQUEST: February 16, 2016
