@@ -5,7 +5,11 @@ You are a health reporter. You are starting to hear many complaints about how lo
 - The fair hearing decision date (found near bottom of each case)
 - The fair hearing case number (found near the top as a ```FH#```)
 
-Paste two cases below into a ```regex101.com``` window. Your ```regex``` should capture a set of the values above for each case.
+You don't have to do this for this homework, but here is our scenario: Once you have all this into a dataframe, your goal is to calculate how long it takes between the request and the decision. Has the amount time increased or decreased, or remained unchanged over the years?
+
+## Back to the homework:
+
+Paste two sample cases below into a ```regex101.com``` window. Your ```regex``` should capture a set of the values above for each case.
 
 Make sure you turn on ```Python regex``` in the left column first on ```regex101.com```
 
