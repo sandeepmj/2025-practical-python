@@ -9,7 +9,11 @@ You don't have to do this for this homework, but here is our scenario: Once you 
 
 ## Back to the homework:
 
-Paste two sample cases below into a ```regex101.com``` window. Your ```regex``` should capture a set of the values above for each case.
+Paste two sample cases below into a ```regex101.com``` window. Your ```regex``` should capture a set of the values above for each case. For the sake of visual clarity, the two cases are separated by:
+
+*******************
+===================
+*******************
 
 Make sure you turn on ```Python regex``` in the left column first on ```regex101.com```
 
@@ -206,7 +210,9 @@ DEPARTMENT OF HEALTH
 By
 Commissioner's Designee
 
-=============
+********************************************************************************************************
+========================================================================================================
+********************************************************************************************************
 
 STATE OF NEW YORK DEPARTMENT OF HEALTH
 REQUEST: January 6, 2016
