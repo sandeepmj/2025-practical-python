@@ -13,6 +13,8 @@ Find the Fair Hearing case number `(FH): FH\s#:\s\d+\w`
 
 Fair hearing decision date: `^\d{1,2}/\d{1,2}/\d{4}`
 
+## END SOLUTION
+
 You don't have to do this for this homework, but here is our scenario: Once you have all this into a dataframe, your goal is to calculate how long it takes between the request and the decision. Has the amount time increased or decreased, or remained unchanged over the years?
 
 ## Back to the homework:
