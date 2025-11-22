@@ -7,11 +7,11 @@ You are a health reporter. You are starting to hear many complaints about how lo
 
 ## SOLUTION
 
-Find request date: REQUEST: '''[a-zA-Z]+\s\d{1,2},\s\d{4}'''[a-zA-Z]+\s\d{1,2},\s\d{4}
+Find request date: `REQUEST: [a-zA-Z]+\s\d{1,2},\s\d{4}`
 
-Find the Fair Hearing case number (FH): FH\s#:\s\d+\w
+Find the Fair Hearing case number `(FH): FH\s#:\s\d+\w`
 
-Fair hearing decision date: ^\d{1,2}/\d{1,2}/\d{4}
+Fair hearing decision date: `^\d{1,2}/\d{1,2}/\d{4}`
 
 You don't have to do this for this homework, but here is our scenario: Once you have all this into a dataframe, your goal is to calculate how long it takes between the request and the decision. Has the amount time increased or decreased, or remained unchanged over the years?
 
