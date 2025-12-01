@@ -1,35 +1,3 @@
-# ```Regex``` homework: NY State Delays in Fair Hearing Decisions?
-
-You are a health reporter. You are starting to hear many complaints about how long it is taking New York State to issue a decision on whether someone receives long-term care aid. You get a hold of thousands of redacted Fair Hearing decision documents [sample](https://drive.google.com/file/d/1081J4XFvA2Slgy_raj-jR6Oqd59L09cr/view?usp=sharing). You want to capture:
-- The request date (found at the top)
-- The fair hearing decision date (found near bottom of each case)
-- The fair hearing case number (found near the top as a ```FH#```)
-
-## SOLUTION
-
-Find request date: `REQUEST: [a-zA-Z]+\s\d{1,2},\s\d{4}`
-
-Find the Fair Hearing case number `FH\s#:\s\d+\w`
-
-Fair hearing decision date: `^\d{1,2}/\d{1,2}/\d{4}`
-
-## END SOLUTION
-
-You don't have to do this for this homework, but here is our scenario: Once you have all this into a dataframe, your goal is to calculate how long it takes between the request and the decision. Has the amount time increased or decreased, or remained unchanged over the years?
-
-## Back to the homework:
-
-Paste two sample cases below into a ```regex101.com``` window. Your ```regex``` should capture a set of the values above for each case. For the sake of visual clarity, the two cases are separated by:
-
-*******************
-
-*******************
-
-Make sure you turn on ```Python regex``` in the left column first on ```regex101.com```
-
-
-Copy this block of text using the copy icon in the right corner of the block:
-```
 STATE OF NEW YORK DEPARTMENT OF HEALTH
 REQUEST: February 16, 2016
 _______________
@@ -723,5 +691,3 @@ NEW YORK STATE
 DEPARTMENT OF HEALTH
 By
 Commissioner's Designee
-
-```
